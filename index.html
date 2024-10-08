@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-    <title>Our Restaurant</title>
+    <title>The Neighbourhood Nook</title>
 </head>
 <body>
     <header>
@@ -17,8 +17,8 @@
             </div>
         </div>
     </header>
-
-    <div class="menu">
+<!--Hey! I'd suggest replacing the div-element below with the nav- element to make it semantic. Since this is essentially a nav-bar-->
+    <nav class="navbar">
         <ul>
             <li><strong>Home</strong></li>
             <li><strong>About Us</strong></li>
@@ -26,6 +26,32 @@
             <li><strong>Gallery</strong></li>
             <li><strong>Contact</strong></li>
         </ul>
-    </div>
+    </nav>
+
+    <main>
+        <!--about section-->
+
+        <section class="aboutus-container" id="aboutus">
+            <img src="/img/The Neighbourhood Nook.jpg"  alt="cozy restaurant" class="aboutus-img"><br>
+            <div class="aboutus-text">
+                <h2>About Us</h2><br>
+                <p> Welcome to The Neighborhood Nook! We're all about good food and great company. Our mission is to create a cozy spot where everyone can gather, share a meal, and enjoy each other's company. <br><br>
+                    At The Neighborhood Nook, we believe that every meal should feel like a warm hug. We use fresh, local ingredients to make sure each dish is not only tasty but also comforting. So come on in, grab a seat, and let's make some memories together. We can't wait to share our love of food with you!<br>
+                </p><br>
+            </div>
+        </section>
+
+        <section class="menu-container">
+            <img src="https://images.pexels.com/photos/1482803/pexels-photo-1482803.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="meat being grilled" class="menu-img"><br>
+            <div class="menu-text">
+                <h2>Our Menu</h2><br>
+                <p>Our menu features a mix of delicious dishes from different cultures, bringing flavors from around the world right to your table. Whether you’re in the mood for spicy tacos, hearty curries, or something sweet to finish off your meal, we’ve got something for everyone.</p><br><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia consectetur, sunt dolorum labore repellendus culpa reiciendriosam. Molestias fugiat velit voluptas distinctio harum praesentium.</p><br>
+                <a href="menu.html"><button type="button"> Menu Card</button></a>
+            </div> 
+        </section>
+        
+            
+    </main>
 </body>
 </html>

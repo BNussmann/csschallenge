@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: black;
+}
+
+header {
+    width: 100%;
+}
+
+.imgbox {
+    width: 100%;
+    position: relative;
+}
+
+.center-fit {
+    text-align: center;
+    color: white; 
+}
+
+.welcome {
+    font-family: "Sofia", sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: bisque;
+    text-align: center;
+}
+
+.menu {
+    background-color: rgb(235, 191, 139);
+    border-bottom: 1px solid #466a9571;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+ul {
+    margin: 10px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+li {
+    font-family: "Prompt", sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px;
+}
+
+li:hover {
+    background-color: white;
+}
+
+/* Media Query for samler Screens (Smartphones) */
+@media screen and (max-width: 768px) {
+    .welcome {
+        top: 40%;
+        font-size: 1.5vw; 
+        padding: 0 10px;
+        width: 15vw; 
+    }
+    .menu {
+        position: relative;
+        top: 0;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    li {
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+        font-size: 14px;
+        border-left: none;
+    }
+}
+
+/* Media Query for tablets etc */
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .welcome {
+        top: 45%;
+        font-size: 0.5vw; 
+    }
+    .menu {
+        position: fixed;
+        top: 40%;
+    }
+
+    li {
+        width: 10%;
+        padding-right: 200px;
+        border-left: solid 5px black;
+    }
+}
+
+/* Media Query for bigger Screens (PCs) */
+@media screen and (min-width: 1201px) {
+    .welcome {
+        top: 36%;
+        font-size: 1vw; 
+    }
+
+    .menu {
+        position: fixed;
+        top: 60%;
+    }
+
+    li {
+        width: 10%;
+        padding-right: 200px;
+        border-left: solid 5px black;
+    }
+}

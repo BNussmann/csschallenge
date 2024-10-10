@@ -150,6 +150,31 @@ th {
     text-align: center;
 }
 
+.reservation-section {
+    border: 2px solid bisque;
+    border-radius: 20px;
+    background-color: bisque;
+    color: black;
+    font-weight: 700;
+    width: 600px;
+    padding: 30px;
+    margin: 100px;
+}
+
+.reservation-section button {
+    position: static;
+    font-size: larger;
+    border-radius: 20px;
+    padding: 10px;
+    border: 5px black dotted;
+    margin-left: 150px;
+}
+
+.reservation-section button:hover{
+    transform: scale(1.2);
+    background-color: white;
+}
+
 
 
 /* Media Query for samler Screens (Smartphones) */

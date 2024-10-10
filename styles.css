@@ -211,7 +211,7 @@ footer {
     }
 
     .welcome {
-        top: %; 
+        top: 8px; 
         font-size: 2vw; 
         padding: 0 5px;
         color: black;

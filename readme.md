@@ -58,13 +58,7 @@ git clone https://github.com/BNussmann/csschallenge.git
 
 ## Future Improvements
 
-	•	Merge Student 2’s Branch: Review and merge the additional content from Mutsa's branch into the main branch.
-	•	Content Completion: Replace placeholder text with final details, especially for the menu and contact sections.
-	•	Responsiveness: Add CSS media queries to improve the mobile viewing experience.
-	•	Accessibility: Improve accessibility by incorporating ARIA labels and other web standards.
-	•	SEO Optimization: Add meta tags and refine the HTML for better search engine visibility.
-
- - **Merge Student 2's Work**: Review and add the extra content from **Student 2** into the main project.
+- **Merge Student 2's Work**: Review and add the extra content from **Student 2** into the main project.
 - **Complete the Content**: Replace placeholder text with final details, especially for the menu and contact sections.
 - **Improve Accessibility**: Make the site easier for everyone to use, including people with disabilities, by using semantic elements.
 

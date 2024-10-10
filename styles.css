@@ -19,7 +19,6 @@
     border-radius: var(--section-border-radius);
     padding: var(--section-padding);
     margin-bottom: var(--section-margin-bottom);
-    border: var(--section-border);
     box-shadow: var(--section-box-shadow);
 }
 

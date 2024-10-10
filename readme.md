@@ -58,7 +58,7 @@ git clone https://github.com/BNussmann/csschallenge.git
 
 ## Future Improvements
 
-- **Merge Mutsa's Work**: Review and add the extra content from **Student 2** into the main project.
+- **Merge Mutsa's Work**: Review and add the extra content from branch 2 into the main project.
 - **Complete the Content**: Replace placeholder text with final details, especially for the menu and contact sections.
 - **Improve Accessibility**: Make the site easier for everyone to use, including people with disabilities, by using semantic elements.
 

@@ -29,7 +29,7 @@
 
 Collaboration and Merging
 
-This project was made by Niklas and Mutsa. However, due to scheduling conflicts and communication breakdowns, **Mutsa’s branch was not merged into the main**. As a result, the current live version only shows **Niklas’s contributions**. This situation highlights the need for better teamwork and communication in group projects.
+This project was made by Niklas and Mutsa. However, due to scheduling conflicts and communication breakdowns, **Mutsa’s branch was not merged into the main**. As a result, the current live version mostly shows **Niklas’s contributions**. This situation highlights the need for better teamwork and communication in group projects.
 
 
 ## Project Structure
@@ -66,9 +66,12 @@ git clone https://github.com/BNussmann/csschallenge.git
 
 - **Niklas Bussmann**:
   - Created the main structure of the website, including the header, navigation and footer.
-  - Merged their branch into the main project.
+  - CSS styling concept icl. design and choice of colours.
+  - Implemented media queries for different screen sizes.
+  - Added external fonts.
 
-- **Mutsa** (not merged):
+- **Mutsa**:
   - Made updates to the **About Us** section with different design and images.
-  - Designed the **Menu** section with details and a link.
+  - Created the **Menu** table and Reservation Form.
+  - Embedded an iFrame map
   - Created this descriptive ReadMe File.

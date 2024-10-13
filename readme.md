@@ -22,7 +22,8 @@
 - **About Us**: An introduction to the restaurant and its atmosphere.
 - **Menu**: Placeholder text describing the menu items.
 - **Gallery**: Pictures of food to attract visitors.
-- **Contact Information**: The restaurant's address and links to social media.
+- **Reservation form**: The Possibility to reserve a Table at the Restaurant via the Homepage.
+- **Contact Information**: The restaurant's address and links to social media in footer.
 
 
 ## Challenges

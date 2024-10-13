@@ -70,7 +70,7 @@ git clone https://github.com/BNussmann/csschallenge.git
   - Implemented media queries for different screen sizes.
   - Added external fonts.
 
-- **Mutsa** (not merged):
+- **Mutsa**:
   - Made updates to the **About Us** section with different design and images.
   - Created the **Menu** table and Reservation Form.
   - Embedded an iFrame map

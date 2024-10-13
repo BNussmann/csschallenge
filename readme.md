@@ -65,7 +65,7 @@ git clone https://github.com/BNussmann/csschallenge.git
 ## Contributors
 
 - **Niklas Bussmann**:
-  - Created the main structure of the website, including the header, navigation and footer.
+  - Created the main structure of the website, including the header, navigation, gallery (with CSS Animations) and footer.
   - CSS styling concept icl. design and choice of colours.
   - Implemented media queries for different screen sizes.
   - Added external fonts.
